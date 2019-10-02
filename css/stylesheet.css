@@ -1,0 +1,124 @@
+body {
+    font-family: 'PT Sans', sans-serif; 
+    color: white;
+    background-color: #041936;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.intro { 
+    z-index: -2;
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    background-image: url(../img/ocean.jpg);
+}
+
+.shark1 {
+    z-index: -1;
+    position: absolute;
+    top: 320px;
+    left: 600px;
+  
+    
+}
+.shark2 {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 700px 
+}
+
+.shark3 {
+    position: absolute;
+    z-index: -1;
+    top:900px;
+    right: 700px;
+}
+
+.shark4 {
+    position: absolute;
+    z-index: -1;
+    height: 800px;
+    width: 1000px;
+    left: 400px;
+    top: 1900px
+}
+.shark5 {
+    position: absolute;
+    top: 2000px;
+    right: 1000px
+}
+
+.photo1 {
+    position: absolute;
+    top: 1200px;
+    left: 800px;
+   
+}
+
+.photo2 {
+    position: absolute;
+    top: 1620px;
+    left: 800px;
+   }
+
+.photo3 {
+    position: absolute;
+    top: 2060px;
+    left: 875px;
+}
+
+.photo4 {
+    position: absolute;
+    top: 3150px;
+    left: 830px
+}
+
+h1 {
+    font-size: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    right: 400px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-right: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 500px;
+    margin-left: 200px;
+    line-height: 1.5;
+    font-size: 18px
+
+}
+
+h3 {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 600px;
+    right: 320px;
+}
+
+.endline { 
+    color: gray;
+    position: relative;
+    left: 400px;
+    margin-top: 100px
+    
+}
